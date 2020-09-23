@@ -24,7 +24,7 @@
 function ondelete(id_masak, name_product) {
 			$("#delete-data").html("")
 			let layout =
-				`<form action="<?php echo site_url('dashboard/delete_masyarakat');?>" method="POST" >Menghapus <input type="text" name="name_product" readonly value="${name_product}"> dengan id <input type="text" name="id_masak" readonly value="${id_masak}"><button type="submit" class="btn btn--radius-2 btn-danger btn-block mt-3">Delete</button></form>`
+				`<form action="<?php echo site_url('dashboard/delete_makanan');?>" method="POST" >Menghapus <input type="text" name="name_product" readonly value="${name_product}"> dengan id <input type="text" name="id_masak" readonly value="${id_masak}"><button type="submit" class="btn btn--radius-2 btn-danger btn-block mt-3">Delete</button></form>`
 			$("#delete-data").append(layout)
 		}
 
